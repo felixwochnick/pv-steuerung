@@ -8,4 +8,9 @@
             <UColorModeButton />
         </template>
     </UHeader>
+    <div
+        class="h-[calc(100vh_-_var(--header-height))] max-h-[calc(100vh_-_var(--header-height))] w-full overflow-auto"
+    >
+        <slot />
+    </div>
 </template>
